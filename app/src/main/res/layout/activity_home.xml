@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:padding="5dp"
+                            android:src="@mipmap/video_b" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Basic Ads"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_large"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#A2D0F4" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/lay_basic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/font_25_size"
+                                android:layout_height="@dimen/font_25_size"
+                                android:padding="5dp"
+                                android:src="@mipmap/blue_r" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/times_new_roman"
+                                android:text="Basic Ads"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lay_interstitial_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/font_25_size"
+                                android:layout_height="@dimen/font_25_size"
+                                android:padding="5dp"
+                                android:src="@mipmap/blue_r" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/times_new_roman"
+                                android:text="Interstitial Image Ads"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lay_native"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="@dimen/font_25_size"
+                                android:layout_height="@dimen/font_25_size"
+                                android:padding="5dp"
+                                android:src="@mipmap/blue_r" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/times_new_roman"
+                                android:text="Native Ads"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lay_gif"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="@dimen/font_25_size"
+                                android:layout_height="@dimen/font_25_size"
+                                android:padding="5dp"
+                                android:src="@mipmap/blue_r" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/times_new_roman"
+                                android:text="GIF PopUp Ads"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:padding="5dp"
+                            android:src="@mipmap/vidoe_r" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Video Ads"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_large"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#A2D0F4" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/lay_interstitial_video"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/font_25_size"
+                                android:layout_height="@dimen/font_25_size"
+                                android:padding="5dp"
+                                android:src="@mipmap/red_r" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/times_new_roman"
+                                android:text="Interstitial Video Ads"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lay_rewarded"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/font_25_size"
+                                android:layout_height="@dimen/font_25_size"
+                                android:padding="5dp"
+                                android:src="@mipmap/red_r" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/times_new_roman"
+                                android:text="Rewarded Video Ads"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lay_inarticle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="@dimen/font_25_size"
+                                android:layout_height="@dimen/font_25_size"
+                                android:padding="5dp"
+                                android:src="@mipmap/red_r" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/times_new_roman"
+                                android:text="Inarticle Video Ads"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lay_native_video"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="@dimen/font_25_size"
+                                android:layout_height="@dimen/font_25_size"
+                                android:padding="5dp"
+                                android:src="@mipmap/red_r" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/times_new_roman"
+                                android:text="Native Video Ads"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lay_video_slider"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="@dimen/font_25_size"
+                                android:layout_height="@dimen/font_25_size"
+                                android:padding="5dp"
+                                android:src="@mipmap/red_r" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/times_new_roman"
+                                android:text="Video Slider Ads"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lay_radio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="@dimen/font_25_size"
+                                android:layout_height="@dimen/font_25_size"
+                                android:padding="5dp"
+                                android:src="@mipmap/red_r" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/times_new_roman"
+                                android:text="Image Video Ads"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lay_inplayer_ad"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="@dimen/font_25_size"
+                                android:layout_height="@dimen/font_25_size"
+                                android:padding="5dp"
+                                android:src="@mipmap/red_r" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/times_new_roman"
+                                android:text="InPlayer Ads"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MediationDemo</string>
+    <string name="ad_tag_url2"><![CDATA[https://rvphp.djaxbidder.com/demo_advancedvast/fc.php?script=rmVideo&zoneid=12&format=vast3]]></string>
+
+</resources>

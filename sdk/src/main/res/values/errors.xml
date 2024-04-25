@@ -1,0 +1,18 @@
+<resources>
+	<string formatted="false" name="moot_restart">AdFetcher requested to start, but tasker already instantiated</string>
+	<string formatted="false" name="fetcher_start_single">AdFetcher starting in single-use mode</string>
+	<string formatted="false" name="handler_message_pass">AdRequest message passed to handler</string>
+	<string formatted="false" name="fetcher_start_auto">AdFetcher started in auto-refresh mode</string>
+	<string formatted="false" name="request_delayed_by_x_ms">Ad request will be delayed by %dms to account for idletime</string>
+	<string formatted="false" name="new_ad_since">Fetching a new ad for the first time in %dms</string>
+	<string formatted="false" name="new_adview">new AdView()</string>
+	<string formatted="false" name="first_opensdk_launch">This is the first time OpenSDK has been launched in this app.</string>
+	<string formatted="false" name="not_first_opensdk_launch">This is not the first OpenSDK launch in this app</string>
+	<string formatted="false" name="screen_off_stop">Stopped ad requests since screen is off</string>
+	<string formatted="false" name="screen_on_start">Starting ad requests since screen is on</string>
+	<string formatted="false" name="start">AdView.start()</string>
+	<string formatted="false" name="stop">AdView.stop()</string>
+	<string formatted="false" name="set_period">setAutoRefreshInterval() to: %d</string>
+	<string formatted="false" name="hidden">The AdView has been hidden.</string>
+	<string formatted="false" name="unhidden">The AdView has been unhidden.</string>
+</resources>
